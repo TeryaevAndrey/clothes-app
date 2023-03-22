@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Farfetch Basis";
+  src: url("./assets/fonts/FarfetchBasisRegular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "RoadRadio";
+  src: url("./assets/fonts/RoadRadio-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Farfetch Basis", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.container {
+  padding: 0 18px;
+  margin: 0 auto;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms ease-in-out;
+}
