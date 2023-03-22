@@ -1,5 +1,5 @@
 import React from "react";
-import SearchImg from "../../assets/images/search.svg";
+import SearchImg from "../assets/images/search.svg";
 
 const Search = () => {
   return (
